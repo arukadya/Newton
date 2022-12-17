@@ -12,6 +12,7 @@
 #include <iomanip>
 #include "Eigen/Core"
 
+//sub
 Eigen::Vector2d f1(Eigen::Vector2d &x){
     return Eigen::Vector2d(
         x.x() + x.y(),
